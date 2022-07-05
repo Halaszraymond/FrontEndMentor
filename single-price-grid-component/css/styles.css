@@ -1,0 +1,109 @@
+body {
+  font-family:'Karla', sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+h1 {
+  font-size: 24px;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 18px;
+  color: hsl(71, 73%, 54%);
+}
+
+p {
+  font-size: 16px;
+  color: hsl(218, 22%, 67%);
+  line-height: 25px;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-container {
+  background-color: white;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding: 20px 40px;
+  width: 560px;
+  height: 175px;
+}
+
+.bottom-container {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  width: 640px;
+  height: 260px;
+}
+
+.subscription-block {
+  position: relative;
+  display: inline-block;
+  background-color: hsl(179, 62%, 43%);
+  padding-left: 40px;
+  height: 230px;
+  width: 279px;
+  padding-top: 30px;
+  top: -6px;
+}
+
+.monthly {
+  color: white;
+  font-size: 18px;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.per-month {
+  color: white;
+}
+
+.details {
+  color: white;
+}
+
+.sign-in {
+  position: relative;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: hsl(71, 73%, 54%);
+  width: 220px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.sign-in:hover {
+  cursor: pointer;
+}
+
+.why-us {
+  display: inline-block;
+  padding-left: 40px;
+  background-color: hsla(179, 62%, 43%, 0.809);
+  width: 279px;
+  height: 260px;
+}
+
+.title {
+  font-size: 18px;
+  color: white;
+  padding-top: 20px;
+}
+
+.texts {
+  font-size: 14px;
+  line-height: 6px;
+  color: white;
+}
