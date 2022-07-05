@@ -1,0 +1,101 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+hr {
+  background-color: hsl(215, 32%, 27%);
+  height: 1px;
+  border: none;
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 24px;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+}
+
+.card {
+  text-align: center;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 5%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 650px;
+  width: 400px;
+}
+
+.nft-picture {
+  border-radius: 5%;
+  height: 350px;
+  width: 350px;
+  margin-top: 25px;
+}
+
+.nft-description {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+}
+
+.nft-name {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.details {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.price {
+  display: inline;
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+  letter-spacing: 1px;
+  margin-right: 125px;
+}
+
+.duration {
+  display: inline;
+  font-weight: 600;
+  color: hsl(215, 51%, 70%);
+}
+
+.author-image {
+  height: 40px;
+  width: 40px;
+  margin-top: 12px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.author-details {
+  position: relative;
+  display: inline;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  bottom: 40px;
+}
+
+.author-name {
+  display: inline;
+  color: white;
+  font-weight: 300;
+}
+
+.
